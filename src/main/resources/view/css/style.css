@@ -1,0 +1,44 @@
+.root {
+    -fx-background-color: #000000;
+}
+
+.button {
+    -fx-pref-height: 100;
+    -fx-pref-width: 100;
+    -fx-font-size: 36px;
+    -fx-background-color: #444444;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #888888;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #737373;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 35px;
+    -fx-font-weight: bold;
+}
+#titleLabel {
+    -fx-text-fill: #00d8ff;
+    -fx-font-size: 35px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 255, 245, 0.5), 10, 0.5, 0, 5);
+}
+
+#playerOneLabel, #playerTwoLabel {
+    -fx-font-size: 17px;
+}
+
+#label1, #label2 {
+    -fx-font-size: 18px;
+    -fx-text-fill: #00d8ff;
+}
+
+.button:disabled {
+    -fx-background-color: #666666;
+    -fx-text-fill: #cccccc;
+}
